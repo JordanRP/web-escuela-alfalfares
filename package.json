@@ -33,5 +33,18 @@
     "dev": "astro dev",
     "preview": "astro build && wrangler dev"
   },
-  "type": "module"
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanRP/web-escuela-alfalfares.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanRP/web-escuela-alfalfares/issues"
+  },
+  "homepage": "https://github.com/JordanRP/web-escuela-alfalfares#readme"
 }
