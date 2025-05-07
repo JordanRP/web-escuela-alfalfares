@@ -1,7 +1,7 @@
 ---
 title: "Día nacional de la convivencia educativa"
 description: "En nuestro establecimiento, el seremi de educación participo en una actividad por el dia nacional de la convivencia Educativa"
-pubDate: "Jul 08 2022"
+pubDate: "may 7 2025"
 heroImage: "/colegio-actividades-16.jpg"
 ---
 
