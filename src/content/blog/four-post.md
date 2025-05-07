@@ -3,6 +3,7 @@ title: "Día del libro"
 description: "51 años de ejemplar educación"
 pubDate: "april 23 2025"
 heroImage: "/colegio-actividades-7.jpg"
+tags: ["educacion", "consejos para padres", "vida escolar"]
 ---
 
 Profundo y genuino orgullo y satisfacción existe en toda la comunidad educativa del Colegio Colonia Alfalfares, por el nuevo aniversario de la institución educativa, dependiente de la Corporación Municipal Gabriel González Videla de La Serena.
