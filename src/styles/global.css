@@ -181,7 +181,7 @@ hr {
       /* Capa de superposición oscura/púrpura semitransparente */
       linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
       /* Imagen de fondo */
-      url('colegio-1.jpg'); /*! REEMPLAZA con tu imagen */
+      url('/colegio-1.jpg'); /*! REEMPLAZA con tu imagen */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
