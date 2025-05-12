@@ -169,7 +169,7 @@ hr {
 
 }
 .slider img:hover{
-  cursor: crosshair;
+  cursor:pointer;
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
@@ -182,6 +182,7 @@ hr {
       linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
       /* Imagen de fondo */
       url('/colegio-1.jpg'); /*! REEMPLAZA con tu imagen */
+  filter: contrast(120%);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
