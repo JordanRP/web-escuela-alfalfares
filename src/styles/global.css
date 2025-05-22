@@ -131,6 +131,7 @@ hr {
   padding-top: 2%;
   max-width: calc(100% - 2em);
   margin: auto;
+  text-align: justify;
 }
 .noticias-grid {
   display: grid;
