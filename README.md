@@ -30,6 +30,10 @@ npm create cloudflare@latest -- --template=cloudflare/templates/astro-blog-start
 A live public deployment of this template is available at [https://astro-blog-starter-template.templates.workers.dev](https://astro-blog-starter-template.templates.workers.dev)
 
 ## 🚀 Project Structure
+# web-escuela-alfalfares
+
+Esto es un CAMBIO MINIMO para forzar un nuevo despliegue y purgar la caché.
+
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
