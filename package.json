@@ -41,5 +41,8 @@
   "bugs": {
     "url": "https://github.com/JordanRP/web-escuela-alfalfares/issues"
   },
-  "homepage": "https://github.com/JordanRP/web-escuela-alfalfares#readme"
+  "homepage": "https://github.com/JordanRP/web-escuela-alfalfares#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.15"
+  }
 }
