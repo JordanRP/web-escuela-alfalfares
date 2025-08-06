@@ -1,0 +1,5 @@
+name = "web-escuela-alfalfares"
+compatibility_date = "2025-08-06"
+
+[site]
+bucket = "./dist"
