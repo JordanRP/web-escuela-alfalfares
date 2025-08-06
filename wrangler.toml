@@ -3,3 +3,4 @@ compatibility_date = "2025-08-06"
 
 [site]
 bucket = "./dist"
+entry-point = "."
