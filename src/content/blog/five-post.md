@@ -1,7 +1,7 @@
 ---
-title: "Reconocimiento a los brigadistas por su labor en su primer semestre . "
+title: "Reconocimiento a los brigadistas por su labor en su primer semestre."
 description: "Entrega de reconocimiento a brigadistas escolares por su labor"
-pubDate: "may 7 2025"
+pubDate: "jul 18 2025"
 heroImage: "/colegio-actividades-18.jpg"
 tags: ["educacion", "reconocimiento", "vida escolar"]
 ---

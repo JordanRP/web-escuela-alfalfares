@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
+import ImageLink from '../components/ImageLink.astro';
 import { getCollection } from 'astro:content';
 import CardNoticia from '../components/CardNoticia.astro';
 import Slider from '../components/Slider.astro';
@@ -34,7 +34,8 @@ const postsRecientes = postsOrdenados.slice(0, 3); // Muestra los 3 más recient
 ---
 
 <Layout title="Escuela de Colonia Alfalfares" >
-	<Slider slot="header"></Slider>
+	<Slider slot="header">
+	</Slider>
 	<div  style="padding: 2% 10%;" >
 		<section id="noticias-blog-local">
 			<div style="text-align: justify;">

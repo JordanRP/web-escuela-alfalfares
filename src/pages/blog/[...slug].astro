@@ -2,6 +2,8 @@
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
 import { render } from 'astro:content';
+import SliderBlog from '../../components/SliderBlog.astro';
+import ImageLink from '../../components/ImageLink.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
@@ -18,7 +20,9 @@ const { Content } = await render(post);
 
 <BlogPost {...post.data}>
 	<div style="text-align: justify;">
+
 		<Content />
+
 	</div>
 	
 </BlogPost>
