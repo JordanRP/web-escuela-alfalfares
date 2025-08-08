@@ -1,6 +1,6 @@
 ---
 title: "Celebración de aniversario número 60 de la escuela y Reconocimiento a docentes."
-description: "Entrega de estuches con lápices de colores para kinder y pre kinder."
+description: "Celebración de aniversario número 60 de la escuela y Reconocimiento a docentes."
 pubDate: "jul 9 2025"
 heroImage: "/imagen-actividad-19.jpeg"
 tags: ["educacion", "reconocimiento", "vida escolar"]
