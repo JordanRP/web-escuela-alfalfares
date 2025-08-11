@@ -187,7 +187,6 @@ hr {
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
-
 }
 .header-banner{
   overflow: hidden;
@@ -236,6 +235,25 @@ hr {
   left: 0;
   object-fit: cover;
   animation: fade 9s ease-in-out infinite alternate;
+}
+.roll-images-banner{
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.roll-images-banner img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+.roll-images-banner img:hover{
+  cursor:pointer;
+  width: 100%;
+  opacity: 1;
+  filter: contrast(120%);
 }
 @keyframes fade{
   0%{
