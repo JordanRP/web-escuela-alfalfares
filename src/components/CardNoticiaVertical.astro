@@ -1,0 +1,54 @@
+---
+export interface Props {
+  title: string;
+  date: Date | null;
+  content: string;
+  excerpt:string;
+  slug: string;
+  featureImage: string; // Opcional
+}
+
+const { title, date, content,excerpt, slug, featureImage } = Astro.props;
+const postUrl = `/blog/${slug}/`; // Asumiendo que tus posts están en /blog/[slug]
+---
+<div class="max-w-4xl mx-auto mt-2 card-noticia">
+    <a href={postUrl} aria-label={`Leer más sobre ${title}`}>
+        <div class="flex gap-3 bg-white border border-gray-300 rounded-xl overflow-hidden items-center justify-start">
+            <div class="relative w-80 h-50 flex-shrink-0"> 
+            {featureImage && (
+                <a href={postUrl} aria-label={`Leer más sobre ${title}`}>
+                <img src={featureImage} alt="" class="absolute left-0 top-0 w-full h-full object-cover object-center transition duration-50"  loading="lazy" />
+                </a>
+            )}
+            </div>
+            <div class="flex flex-col">
+                <h6 class="text-xl font-bold"><a href={postUrl}>{title}</a></h6>
+                <div class="text-gray-500 text-xs" set:html={excerpt}></div>
+                <div class="card-noticia-fecha text-sm" set:html={date}></div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<style>
+  .card-noticia:hover{
+    cursor:pointer;
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transition-duration: 1000ms;
+    transform: scale(1.10, 1.10);
+  }
+  .card-noticia-enlace {
+    display: inline-block;
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: bold;
+    margin-top: auto; 
+    align-self: flex-start; 
+  }
+  .card-noticia-enlace:hover {
+    text-decoration: underline;
+  }
+  .card-noticia-fecha {
+        color: #666;
+  }
+</style>
