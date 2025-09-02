@@ -2,7 +2,7 @@
 title: "Día del libro"
 description: "51 años de ejemplar educación"
 pubDate: "april 23 2025"
-heroImage: "/colegio-actividades-7.jpg"
+heroImage: "https://imagenes.escuelaalfalfares.cl/colegio-actividades-7.jpg"
 tags: ["educacion", "consejos para padres", "vida escolar"]
 ---
 

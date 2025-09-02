@@ -2,7 +2,7 @@
 title: "Campeonato escolar de futbol"
 description: "primera fecha de la Liga Escolar 2025 que cuenta con la participación de 6 establecimientos públicos de La Serena en esta primera fecha."
 pubDate: "aug 15 2025"
-heroImage: "/imagen-actividad-29.jpg"
+heroImage: "https://imagenes.escuelaalfalfares.cl/imagen-actividad-29.jpg"
 tags: ["educacion", "reconocimiento", "vida escolar","día del niño", "deporte"]
 ---
 

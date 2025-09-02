@@ -2,7 +2,7 @@
 title: "Celebración de aniversario número 60 de la escuela y Reconocimiento a docentes."
 description: "Celebración de aniversario número 60 de la escuela y Reconocimiento a docentes."
 pubDate: "jul 9 2025"
-heroImage: "/imagen-actividad-19.jpeg"
+heroImage: "https://imagenes.escuelaalfalfares.cl/imagen-actividad-19.jpeg"
 tags: ["educacion", "reconocimiento", "vida escolar"]
 ---
 

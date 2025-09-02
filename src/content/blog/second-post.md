@@ -2,7 +2,7 @@
 title: "Bingo y otras actividades"
 description: "Se realizaron diversas actividades de recreación "
 pubDate: "April 30 2025"
-heroImage: "/colegio-actividades-17.jpg"
+heroImage: "https://imagenes.escuelaalfalfares.cl/colegio-actividades-17.jpg"
 tags: ["educacion", "consejos para padres", "vida escolar"]
 ---
 

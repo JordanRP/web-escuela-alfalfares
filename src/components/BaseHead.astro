@@ -11,14 +11,14 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/logo-colegio.png' } = Astro.props;
+const { title, description, image = 'https://imagenes.escuelaalfalfares.cl/logo-colegio.png' } = Astro.props;
 ---
 
 <!-- Global Metadata -->
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/logo-colegio.png" />
-<link rel="shortcut icon" href="/logo-colegio.png	">
+<link rel="icon" type="image/svg+xml" href="https://imagenes.escuelaalfalfares.cl/logo-colegio.png" />
+<link rel="shortcut icon" href="https://imagenes.escuelaalfalfares.cl/logo-colegio.png	">
 
 <!-- Font preloads -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
@@ -50,7 +50,7 @@ const { title, description, image = '/logo-colegio.png' } = Astro.props;
 <!-- Open graph -->
  <meta property="og:title" content="Escuela de Colonia Alfalfares, institución educacional en la ciudad de La Serena, Chile">
  <meta property="og:description" content="Descubre la Escuela de Colonia Alfalfares, ofrecemos una educación integral desde primer ciclo, hasta segundo ciclo. Conoce nuestros programas, valores y proceso de admisión.">
- <meta property="image" content="/colegio-1.jpg">
+ <meta property="image" content="https://imagenes.escuelaalfalfares.cl/colegio-1.jpg">
  <meta property="image:alt" content="Imagen de Escuela de Colonia Alfalfares | Escuela Alfalfares">
  <meta property="og:locale" content="es-CL">
  <meta property="og:locale:alternate" content="es-ES">
