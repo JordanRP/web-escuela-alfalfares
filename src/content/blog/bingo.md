@@ -7,7 +7,7 @@ images :
   - "https://imagenes.escuelaalfalfares.cl/imagen-actividad-27.jpeg"
   - "https://imagenes.escuelaalfalfares.cl/bingo-1.jpeg"
   - "https://imagenes.escuelaalfalfares.cl/bingo-2.jpeg"
-  - "https://imagenes.escuelaalfalfares.cl/bingo-3.jpeg"
+  - "https://imagenes.escuelaalfalfares.cl/bingo-3+.jpeg"
   - "https://imagenes.escuelaalfalfares.cl/bingo-4.jpeg"
   - "https://imagenes.escuelaalfalfares.cl/bingo-5.jpeg"
   - "https://imagenes.escuelaalfalfares.cl/bingo-6.jpeg"
